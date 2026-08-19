@@ -135,5 +135,6 @@ plt.axis("off")
 plt.show()
 
 ```
-<img width="649" height="813" alt="image" src="https://github.com/user-attachments/assets/9d6eb4f6-5771-4723-bffd-f165d7a3e0a0" />
+<img width="652" height="809" alt="image" src="https://github.com/user-attachments/assets/5e93d62e-4934-43b2-9d46-54743cc2a004" />
+
 
