@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 faceImage = cv2.imread('photo.jpg')
 plt.imshow(faceImage[:,:,::-1]);plt.title("Face")
 ```
-<img width="672" height="811" alt="image" src="https://github.com/user-attachments/assets/f0e8d1b2-55a3-4482-9869-66b4565b07d1" />
+
 
 
 
@@ -46,7 +46,7 @@ plt.title("sunglassesPNG")
 glassBGR = sunglassesPNG[:,:,0:3]
 glassMask1 = sunglassesPNG[:,:,3]
 ```
-![WhatsApp Image 2025-09-08 at 12 49 33_9043efa3](https://github.com/user-attachments/assets/55dd15fb-efa4-425d-911e-06a340b5e1f7)
+
 
 ```
 plt.figure(figsize=[15,15])
@@ -66,7 +66,7 @@ plt.imshow(glassMask1, cmap='gray')
 plt.title('Sunglass Mask (generated)')
 
 ```
-![WhatsApp Image 2025-09-08 at 12 49 34_3f85bda3](https://github.com/user-attachments/assets/8bde8fae-2cc6-47ce-9326-12a4fc9c33fc)
+
 
 
 ```
@@ -135,6 +135,6 @@ plt.axis("off")
 plt.show()
 
 ```
-<img width="652" height="809" alt="image" src="https://github.com/user-attachments/assets/5e93d62e-4934-43b2-9d46-54743cc2a004" />
+
 
 
